@@ -1,0 +1,23 @@
+{
+  "name": "query-select-widget",
+  "label": "Query Select Widget",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "",
+  "description": "Pick a field and a value, query the layer, and select the matching features so the map, Table and List widgets all show the selection.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasConfig": true
+  },
+  "publishMessages": [
+    "DATA_RECORDS_SELECTION_CHANGE"
+  ],
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "translatedLocales": [
+    "en"
+  ]
+}
